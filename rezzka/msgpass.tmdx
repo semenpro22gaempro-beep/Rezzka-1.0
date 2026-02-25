@@ -1,0 +1,11 @@
+ascii_text = pyfiglet.figlet_format("Rezzka")
+console.print(ascii_text, style="bold white")
+os = platform.system()
+pr = platform.processor()
+nm = platform.node()
+console.print(os, style="bold white")
+console.print(pr, style="bold white")
+console.print(nm, style="bold white")
+
+console.print("[white][>][/white] список команд: \n time\n calcul\n exit\n cpu \n notes\n ip\n msg\n ")
+time.sleep(2)
